@@ -1,2 +1,4 @@
 kicad_project/*.bak
+kicad_project/*.bck
+kicad_project/*.000
 
