@@ -1,8 +1,6 @@
-update=Sat 05 Jul 2014 03:56:24 PM EEST
+update=Sun 06 Jul 2014 04:30:09 PM EEST
 version=1
-last_client=eeschema
-[general]
-version=1
+last_client=kicad
 [pcbnew]
 version=1
 PadDrlX=320
@@ -103,3 +101,5 @@ LibName29=contrib
 LibName30=valves
 LibName31=rgb-led
 LibName32=opto_npn
+[general]
+version=1

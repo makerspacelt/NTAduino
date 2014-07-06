@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Sat 05 Jul 2014 04:09:42 PM EEST
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Sun 06 Jul 2014 03:56:37 PM EEST
 
 BeginCmp
 TimeStamp = /53AED84B;
@@ -45,7 +45,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53AEE26D;
 Reference = D1;
-ValeurCmp = LED3W;
+ValeurCmp = LED3R;
 IdModule  = LED-3MM;
 EndCmp
 
@@ -80,14 +80,14 @@ EndCmp
 BeginCmp
 TimeStamp = /53B7D9F9;
 Reference = D6;
-ValeurCmp = LED3R;
+ValeurCmp = LED3G;
 IdModule  = LED-3MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /53B7D9F8;
 Reference = D7;
-ValeurCmp = LED3R;
+ValeurCmp = LED3G;
 IdModule  = LED-3MM;
 EndCmp
 
@@ -108,14 +108,14 @@ EndCmp
 BeginCmp
 TimeStamp = /53B7D98C;
 Reference = D10;
-ValeurCmp = LED3G;
+ValeurCmp = LED3R;
 IdModule  = LED-3MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /53B7D98B;
 Reference = D11;
-ValeurCmp = LED3G;
+ValeurCmp = LED3W;
 IdModule  = LED-3MM;
 EndCmp
 
@@ -130,6 +130,13 @@ BeginCmp
 TimeStamp = /53B7D2DF;
 Reference = D13;
 ValeurCmp = LED3R++;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B946C4;
+Reference = D14;
+ValeurCmp = LED3G;
 IdModule  = LED-3MM;
 EndCmp
 
@@ -326,6 +333,13 @@ BeginCmp
 TimeStamp = /53B7D2E0;
 Reference = R23;
 ValeurCmp = 150;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B946C5;
+Reference = R24;
+ValeurCmp = 330;
 IdModule  = R3-LARGE_PADS;
 EndCmp
 
