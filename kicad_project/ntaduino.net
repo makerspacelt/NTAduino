@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sun 06 Jul 2014 03:56:37 PM EEST
+# EESchema Netlist Version 1.1 created  Tue 08 Jul 2014 09:41:17 PM EEST
 (
  ( /53AED84B C2 C1 100n
   ( 1 GND )
@@ -30,44 +30,44 @@
  )
  ( /53AEDCD5 D3 D2 3V6
   ( 1 GND )
-  ( 2 N-000033 )
+  ( 2 N-000025 )
  )
  ( /53AEDCC8 D3 D3 3V6
   ( 1 GND )
-  ( 2 N-000025 )
+  ( 2 N-000043 )
  )
  ( /53AED8C3 D3 D4 1N4148
   ( 1 /P6 )
   ( 2 N-000026 )
  )
  ( /53B7E17F LED-RGB-CC-5MM D5 LED-RGB
-  ( 1 N-000034 )
-  ( 2 N-000036 )
+  ( 1 N-000033 )
+  ( 2 N-000035 )
   ( 3 GND )
-  ( 4 N-000035 )
+  ( 4 N-000034 )
  )
  ( /53B7D9F9 LED-3MM D6 LED3G
-  ( 1 N-000043 )
-  ( 2 GND )
- )
- ( /53B7D9F8 LED-3MM D7 LED3G
   ( 1 N-000042 )
   ( 2 GND )
  )
- ( /53B7D9E9 LED-3MM D8 LED3Y
-  ( 1 N-000040 )
-  ( 2 GND )
- )
- ( /53B7D9EA LED-3MM D9 LED3Y
+ ( /53B7D9F8 LED-3MM D7 LED3G
   ( 1 N-000041 )
   ( 2 GND )
  )
- ( /53B7D98C LED-3MM D10 LED3R
+ ( /53B7D9E9 LED-3MM D8 LED3Y
   ( 1 N-000039 )
   ( 2 GND )
  )
- ( /53B7D98B LED-3MM D11 LED3W
+ ( /53B7D9EA LED-3MM D9 LED3Y
+  ( 1 N-000040 )
+  ( 2 GND )
+ )
+ ( /53B7D98C LED-3MM D10 LED3R
   ( 1 N-000038 )
+  ( 2 GND )
+ )
+ ( /53B7D98B LED-3MM D11 LED3W
+  ( 1 N-000037 )
   ( 2 GND )
  )
  ( /53B7D254 LED-3MM D12 LED3R++
@@ -79,7 +79,7 @@
   ( 2 GND )
  )
  ( /53B946C4 LED-3MM D14 LED3G
-  ( 1 N-000037 )
+  ( 1 N-000036 )
   ( 2 GND )
  )
  ( /532D3234 DIP-28__300_ELL IC1 ATMEGA8-P
@@ -114,8 +114,8 @@
  )
  ( /53B7A4EE USB_B J1 USB_1
   ( 1 +5V )
-  ( 2 N-000025 )
-  ( 3 N-000033 )
+  ( 2 N-000043 )
+  ( 3 N-000025 )
   ( 4 GND )
   ( 5 GND )
   ( 6 GND )
@@ -165,7 +165,7 @@
   ( 2 +5V )
  )
  ( /53AEDEBC R3-LARGE_PADS R3 2K2
-  ( 1 N-000025 )
+  ( 1 N-000043 )
   ( 2 +5V )
  )
  ( /53B7B25A R3-LARGE_PADS R4 100K
@@ -185,11 +185,11 @@
   ( 2 /P13 )
  )
  ( /53AEDC9C R3-LARGE_PADS R8 68
-  ( 1 N-000033 )
+  ( 1 N-000025 )
   ( 2 /P4 )
  )
  ( /53AEDC95 R3-LARGE_PADS R9 68
-  ( 1 N-000025 )
+  ( 1 N-000043 )
   ( 2 /P11 )
  )
  ( /53AEDA04 R3-LARGE_PADS R10 10K
@@ -206,39 +206,39 @@
  )
  ( /53B7E193 R3-LARGE_PADS R13 220
   ( 1 /P15 )
-  ( 2 N-000035 )
+  ( 2 N-000034 )
  )
  ( /53B7E197 R3-LARGE_PADS R14 220
   ( 1 /P16 )
-  ( 2 N-000036 )
+  ( 2 N-000035 )
  )
  ( /53B7E198 R3-LARGE_PADS R15 220
   ( 1 /P17 )
-  ( 2 N-000034 )
+  ( 2 N-000033 )
  )
  ( /53B7D9FA R3-LARGE_PADS R16 220
   ( 1 /P28 )
-  ( 2 N-000043 )
+  ( 2 N-000042 )
  )
  ( /53B7D9F7 R3-LARGE_PADS R17 220
   ( 1 /P27 )
-  ( 2 N-000042 )
+  ( 2 N-000041 )
  )
  ( /53B7D9E8 R3-LARGE_PADS R18 220
   ( 1 /P26 )
-  ( 2 N-000040 )
+  ( 2 N-000039 )
  )
  ( /53B7D9EB R3-LARGE_PADS R19 220
   ( 1 /P25 )
-  ( 2 N-000041 )
+  ( 2 N-000040 )
  )
  ( /53B7D98D R3-LARGE_PADS R20 220
   ( 1 /P24 )
-  ( 2 N-000039 )
+  ( 2 N-000038 )
  )
  ( /53B7D98A R3-LARGE_PADS R21 220
   ( 1 /P18 )
-  ( 2 N-000038 )
+  ( 2 N-000037 )
  )
  ( /53B7D251 R3-LARGE_PADS R22 150
   ( 1 /P2 )
@@ -250,7 +250,7 @@
  )
  ( /53B946C5 R3-LARGE_PADS R24 330
   ( 1 +5V )
-  ( 2 N-000037 )
+  ( 2 N-000036 )
  )
  ( /53B7C574 BUZ3-5_plus SP1 SPEAKER
   ( 1 GND )
