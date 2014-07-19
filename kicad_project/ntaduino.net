@@ -1,594 +1,742 @@
-# EESchema Netlist Version 1.1 created  Tue 08 Jul 2014 09:41:17 PM EEST
-(
- ( /53AED84B C2 C1 100n
-  ( 1 GND )
-  ( 2 +5V )
- )
- ( /53AEDF91 C2 C2 100n
-  ( 1 GND )
-  ( 2 +5V )
- )
- ( /532D3DBD C2 C3 22p
-  ( 1 GND )
-  ( 2 /P9 )
- )
- ( /532D3DC1 C2 C4 22p
-  ( 1 GND )
-  ( 2 /P10 )
- )
- ( /53B7A270 C2 C5 100n
-  ( 1 /P21 )
-  ( 2 GND )
- )
- ( /53AED968 C2 C6 1uF
-  ( 1 N-000026 )
-  ( 2 /P1 )
- )
- ( /53AEE26D LED-3MM D1 LED3R
-  ( 1 N-000024 )
-  ( 2 GND )
- )
- ( /53AEDCD5 D3 D2 3V6
-  ( 1 GND )
-  ( 2 N-000025 )
- )
- ( /53AEDCC8 D3 D3 3V6
-  ( 1 GND )
-  ( 2 N-000043 )
- )
- ( /53AED8C3 D3 D4 1N4148
-  ( 1 /P6 )
-  ( 2 N-000026 )
- )
- ( /53B7E17F LED-RGB-CC-5MM D5 LED-RGB
-  ( 1 N-000033 )
-  ( 2 N-000035 )
-  ( 3 GND )
-  ( 4 N-000034 )
- )
- ( /53B7D9F9 LED-3MM D6 LED3G
-  ( 1 N-000042 )
-  ( 2 GND )
- )
- ( /53B7D9F8 LED-3MM D7 LED3G
-  ( 1 N-000041 )
-  ( 2 GND )
- )
- ( /53B7D9E9 LED-3MM D8 LED3Y
-  ( 1 N-000039 )
-  ( 2 GND )
- )
- ( /53B7D9EA LED-3MM D9 LED3Y
-  ( 1 N-000040 )
-  ( 2 GND )
- )
- ( /53B7D98C LED-3MM D10 LED3R
-  ( 1 N-000038 )
-  ( 2 GND )
- )
- ( /53B7D98B LED-3MM D11 LED3W
-  ( 1 N-000037 )
-  ( 2 GND )
- )
- ( /53B7D254 LED-3MM D12 LED3R++
-  ( 1 N-000002 )
-  ( 2 GND )
- )
- ( /53B7D2DF LED-3MM D13 LED3R++
-  ( 1 N-000004 )
-  ( 2 GND )
- )
- ( /53B946C4 LED-3MM D14 LED3G
-  ( 1 N-000036 )
-  ( 2 GND )
- )
- ( /532D3234 DIP-28__300_ELL IC1 ATMEGA8-P
-  ( 1 /P1 )
-  ( 2 /P2 )
-  ( 3 /P3 )
-  ( 4 /P4 )
-  ( 5 /P5 )
-  ( 6 /P6 )
-  ( 7 +5V )
-  ( 8 GND )
-  ( 9 /P9 )
-  ( 10 /P10 )
-  ( 11 /P11 )
-  ( 12 /P12 )
-  ( 13 /P13 )
-  ( 14 /P14 )
-  ( 15 /P15 )
-  ( 16 /P16 )
-  ( 17 /P17 )
-  ( 18 /P18 )
-  ( 19 /P19 )
-  ( 20 +5V )
-  ( 21 /P21 )
-  ( 22 GND )
-  ( 23 /P23 )
-  ( 24 /P24 )
-  ( 25 /P25 )
-  ( 26 /P26 )
-  ( 27 /P27 )
-  ( 28 /P28 )
- )
- ( /53B7A4EE USB_B J1 USB_1
-  ( 1 +5V )
-  ( 2 N-000043 )
-  ( 3 N-000025 )
-  ( 4 GND )
-  ( 5 GND )
-  ( 6 GND )
- )
- ( /53B78FA2 SIL-14 P1 CONN_14
-  ( 1 /P1 )
-  ( 2 /P2 )
-  ( 3 /P3 )
-  ( 4 /P4 )
-  ( 5 /P5 )
-  ( 6 /P6 )
-  ( 7 +5V )
-  ( 8 GND )
-  ( 9 /P9 )
-  ( 10 /P10 )
-  ( 11 /P11 )
-  ( 12 /P12 )
-  ( 13 /P13 )
-  ( 14 /P14 )
- )
- ( /53B797CE SIL-14 P2 CONN_14
-  ( 1 /P15 )
-  ( 2 /P16 )
-  ( 3 /P17 )
-  ( 4 /P18 )
-  ( 5 /P19 )
-  ( 6 +5V )
-  ( 7 /P21 )
-  ( 8 GND )
-  ( 9 /P23 )
-  ( 10 /P24 )
-  ( 11 /P25 )
-  ( 12 /P26 )
-  ( 13 /P27 )
-  ( 14 /P28 )
- )
- ( /53B7F665 LED-3MM Q1 LTR4206
-  ( 1 GND )
-  ( 2 /P5 )
- )
- ( /53B7CC0E R3-LARGE_PADS R1 20K
-  ( 1 /P5 )
-  ( 2 +5V )
- )
- ( /53AED9FD R3-LARGE_PADS R2 10K
-  ( 1 N-000026 )
-  ( 2 +5V )
- )
- ( /53AEDEBC R3-LARGE_PADS R3 2K2
-  ( 1 N-000043 )
-  ( 2 +5V )
- )
- ( /53B7B25A R3-LARGE_PADS R4 100K
-  ( 1 /P23 )
-  ( 2 +5V )
- )
- ( /53B7B256 LDR-5MM R5 LDR
-  ( 1 /P23 )
-  ( 2 GND )
- )
- ( /53AEE1FB R3-LARGE_PADS R6 220
-  ( 1 /P19 )
-  ( 2 N-000024 )
- )
- ( /53B7CF73 R3-LARGE_PADS R7 68
-  ( 1 N-000006 )
-  ( 2 /P13 )
- )
- ( /53AEDC9C R3-LARGE_PADS R8 68
-  ( 1 N-000025 )
-  ( 2 /P4 )
- )
- ( /53AEDC95 R3-LARGE_PADS R9 68
-  ( 1 N-000043 )
-  ( 2 /P11 )
- )
- ( /53AEDA04 R3-LARGE_PADS R10 10K
-  ( 1 /P1 )
-  ( 2 +5V )
- )
- ( /53B7D83B R3-LARGE_PADS R11 10K
-  ( 1 /P12 )
-  ( 2 +5V )
- )
- ( /53B7D791 R3-LARGE_PADS R12 10K
-  ( 1 /P14 )
-  ( 2 +5V )
- )
- ( /53B7E193 R3-LARGE_PADS R13 220
-  ( 1 /P15 )
-  ( 2 N-000034 )
- )
- ( /53B7E197 R3-LARGE_PADS R14 220
-  ( 1 /P16 )
-  ( 2 N-000035 )
- )
- ( /53B7E198 R3-LARGE_PADS R15 220
-  ( 1 /P17 )
-  ( 2 N-000033 )
- )
- ( /53B7D9FA R3-LARGE_PADS R16 220
-  ( 1 /P28 )
-  ( 2 N-000042 )
- )
- ( /53B7D9F7 R3-LARGE_PADS R17 220
-  ( 1 /P27 )
-  ( 2 N-000041 )
- )
- ( /53B7D9E8 R3-LARGE_PADS R18 220
-  ( 1 /P26 )
-  ( 2 N-000039 )
- )
- ( /53B7D9EB R3-LARGE_PADS R19 220
-  ( 1 /P25 )
-  ( 2 N-000040 )
- )
- ( /53B7D98D R3-LARGE_PADS R20 220
-  ( 1 /P24 )
-  ( 2 N-000038 )
- )
- ( /53B7D98A R3-LARGE_PADS R21 220
-  ( 1 /P18 )
-  ( 2 N-000037 )
- )
- ( /53B7D251 R3-LARGE_PADS R22 150
-  ( 1 /P2 )
-  ( 2 N-000002 )
- )
- ( /53B7D2E0 R3-LARGE_PADS R23 150
-  ( 1 /P3 )
-  ( 2 N-000004 )
- )
- ( /53B946C5 R3-LARGE_PADS R24 330
-  ( 1 +5V )
-  ( 2 N-000036 )
- )
- ( /53B7C574 BUZ3-5_plus SP1 SPEAKER
-  ( 1 GND )
-  ( 2 N-000006 )
- )
- ( /53AEDB0B PUSH_BUTT_SHAPE1 SW1 SW_PUSH
-  ( 1 GND )
-  ( 2 N-000026 )
- )
- ( /53B7D83D PUSH_BUTT_SHAPE1 SW2 SW_PUSH
-  ( 1 GND )
-  ( 2 /P12 )
- )
- ( /53B7D786 PUSH_BUTT_SHAPE1 SW3 SW_PUSH
-  ( 1 GND )
-  ( 2 /P14 )
- )
- ( /532D3DB9 HC-49V X1 16.000MHz
-  ( 1 /P10 )
-  ( 2 /P9 )
- )
-)
-*
-{ Allowed footprints by component:
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component C6
- SM*
- C?
- C1-1
-$endlist
-$component D1
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D2
- D?
- SO*
- SM*
-$endlist
-$component D3
- D?
- SO*
- SM*
-$endlist
-$component D4
- D?
- S*
-$endlist
-$component D5
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D6
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D7
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D8
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D9
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D10
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D11
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D12
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D13
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D14
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component IC1
- 28DIP-ELL600
- 28dip600
-$endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R2
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R3
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R4
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R5
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R6
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R7
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R8
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R9
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R10
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R11
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R12
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R13
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R14
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R15
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R16
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R17
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R18
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R19
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R20
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R21
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R22
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R23
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R24
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$endfootprintlist
-}
+(export (version D)
+  (design
+    (source E:/Projects/hardware/pcb/NTAduino/kicad_project/ntaduino.sch)
+    (date "2014-07-19 11:24:53")
+    (tool "eeschema (2013-07-07 BZR 4022)-stable"))
+  (components
+    (comp (ref R24)
+      (value 330)
+      (fields
+        (field (name LPN) "CR1/4W 100K"))
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B946C5))
+    (comp (ref D14)
+      (value LED3G)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B946C4))
+    (comp (ref Q1)
+      (value LTR4206)
+      (libsource (lib opto_npn) (part OPTO_NPN_12))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7F665))
+    (comp (ref R15)
+      (value 220)
+      (fields
+        (field (name LPN) "CR1/4W 100K"))
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7E198))
+    (comp (ref R14)
+      (value 220)
+      (fields
+        (field (name LPN) "CR1/4W 100K"))
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7E197))
+    (comp (ref R13)
+      (value 220)
+      (fields
+        (field (name LPN) "CR1/4W 100K"))
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7E193))
+    (comp (ref D5)
+      (value LED-RGB)
+      (libsource (lib rgb-led) (part LED-RGB))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7E17F))
+    (comp (ref D7)
+      (value LED3G)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7D9F8))
+    (comp (ref R17)
+      (value 220)
+      (fields
+        (field (name LPN) "CR1/4W 100K"))
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7D9F7))
+    (comp (ref R19)
+      (value 220)
+      (fields
+        (field (name LPN) "CR1/4W 100K"))
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7D9EB))
+    (comp (ref D9)
+      (value LED3Y)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7D9EA))
+    (comp (ref D8)
+      (value LED3Y)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7D9E9))
+    (comp (ref R18)
+      (value 220)
+      (fields
+        (field (name LPN) "CR1/4W 100K"))
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7D9E8))
+    (comp (ref R20)
+      (value 220)
+      (fields
+        (field (name LPN) "CR1/4W 100K"))
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7D98D))
+    (comp (ref D10)
+      (value LED3R)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7D98C))
+    (comp (ref D11)
+      (value LED3W)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7D98B))
+    (comp (ref R21)
+      (value 220)
+      (fields
+        (field (name LPN) "CR1/4W 100K"))
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7D98A))
+    (comp (ref SW2)
+      (value SW_PUSH)
+      (libsource (lib device) (part SW_PUSH))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7D83D))
+    (comp (ref R11)
+      (value 10K)
+      (fields
+        (field (name LPN) "CR1/4W 100K"))
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7D83B))
+    (comp (ref R12)
+      (value 10K)
+      (fields
+        (field (name LPN) "CR1/4W 100K"))
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7D791))
+    (comp (ref SW3)
+      (value SW_PUSH)
+      (libsource (lib device) (part SW_PUSH))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7D786))
+    (comp (ref R23)
+      (value 150)
+      (fields
+        (field (name LPN) "CR1/4W 100K"))
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7D2E0))
+    (comp (ref D13)
+      (value LED3R++)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7D2DF))
+    (comp (ref D12)
+      (value LED3R++)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7D254))
+    (comp (ref R22)
+      (value 150)
+      (fields
+        (field (name LPN) "CR1/4W 100K"))
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7D251))
+    (comp (ref R7)
+      (value 68)
+      (fields
+        (field (name LPN) "CR1/4W 100K"))
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7CF73))
+    (comp (ref R1)
+      (value 20K)
+      (fields
+        (field (name LPN) "CR1/4W 100K"))
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7CC0E))
+    (comp (ref SP1)
+      (value SPEAKER)
+      (libsource (lib device) (part SPEAKER))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7C574))
+    (comp (ref R4)
+      (value 100K)
+      (fields
+        (field (name LPN) "CR1/4W 100K"))
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7B25A))
+    (comp (ref R5)
+      (value LDR)
+      (fields
+        (field (name LPN) "CR1/4W 100K"))
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7B256))
+    (comp (ref J1)
+      (value USB_1)
+      (libsource (lib ntaduino-cache) (part USB_1))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7A4EE))
+    (comp (ref C5)
+      (value 100n)
+      (fields
+        (field (name LPN) CD0022P/NP0))
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B7A270))
+    (comp (ref P2)
+      (value CONN_14)
+      (libsource (lib conn) (part CONN_14))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B797CE))
+    (comp (ref P1)
+      (value CONN_14)
+      (libsource (lib conn) (part CONN_14))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53B78FA2))
+    (comp (ref C4)
+      (value 22p)
+      (fields
+        (field (name LPN) CD0022P/NP0))
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 532D3DC1))
+    (comp (ref C3)
+      (value 22p)
+      (fields
+        (field (name LPN) CD0022P/NP0))
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 532D3DBD))
+    (comp (ref X1)
+      (value 16.000MHz)
+      (fields
+        (field (name LPN) "Q16.00M HC49-S"))
+      (libsource (lib device) (part CRYSTAL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 532D3DB9))
+    (comp (ref IC1)
+      (value ATMEGA8-P)
+      (footprint DIL28)
+      (fields
+        (field (name LPN) ATMEGA8-16PU))
+      (libsource (lib atmel) (part ATMEGA8-P))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 532D3234))
+    (comp (ref C1)
+      (value 100n)
+      (fields
+        (field (name LPN) CD0022P/NP0))
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53AED84B))
+    (comp (ref D4)
+      (value 1N4148)
+      (libsource (lib device) (part DIODE))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53AED8C3))
+    (comp (ref C6)
+      (value 1uF)
+      (fields
+        (field (name LPN) CD0022P/NP0))
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53AED968))
+    (comp (ref R2)
+      (value 10K)
+      (fields
+        (field (name LPN) "CR1/4W 100K"))
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53AED9FD))
+    (comp (ref R10)
+      (value 10K)
+      (fields
+        (field (name LPN) "CR1/4W 100K"))
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53AEDA04))
+    (comp (ref SW1)
+      (value SW_PUSH)
+      (libsource (lib device) (part SW_PUSH))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53AEDB0B))
+    (comp (ref R9)
+      (value 68)
+      (fields
+        (field (name LPN) "CR1/4W 100K"))
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53AEDC95))
+    (comp (ref R8)
+      (value 68)
+      (fields
+        (field (name LPN) "CR1/4W 100K"))
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53AEDC9C))
+    (comp (ref D3)
+      (value 3V6)
+      (libsource (lib device) (part ZENER))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53AEDCC8))
+    (comp (ref D2)
+      (value 3V6)
+      (libsource (lib device) (part ZENER))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53AEDCD5))
+    (comp (ref R3)
+      (value 2K2)
+      (fields
+        (field (name LPN) "CR1/4W 100K"))
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53AEDEBC))
+    (comp (ref C2)
+      (value 100n)
+      (fields
+        (field (name LPN) CD0022P/NP0))
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53AEDF91))
+    (comp (ref R6)
+      (value 220)
+      (fields
+        (field (name LPN) "CR1/4W 100K"))
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53AEE1FB))
+    (comp (ref D1)
+      (value LED3R)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53AEE26D)))
+  (libparts
+    (libpart (lib device) (part CRYSTAL)
+      (fields
+        (field (name Reference) X)
+        (field (name Value) CRYSTAL)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib device) (part C)
+      (description "Condensateur non polarise")
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part DIODE)
+      (description "Diode simple")
+      (footprints
+        (fp D?)
+        (fp S*))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) DIODE)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))))
+    (libpart (lib device) (part LED)
+      (footprints
+        (fp LED-3MM)
+        (fp LED-5MM)
+        (fp LED-10MM)
+        (fp LED-0603)
+        (fp LED-0805)
+        (fp LED-1206)
+        (fp LEDV))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))))
+    (libpart (lib device) (part SPEAKER)
+      (fields
+        (field (name Reference) SP)
+        (field (name Value) SPEAKER)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name 1) (type input))
+        (pin (num 2) (name 2) (type input))))
+    (libpart (lib device) (part SW_PUSH)
+      (description "Push Button")
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) SW_PUSH)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib device) (part R)
+      (description Resistance)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part ZENER)
+      (description "Diode zener")
+      (footprints
+        (fp D?)
+        (fp SO*)
+        (fp SM*))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) ZENER)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))))
+    (libpart (lib conn) (part CONN_14)
+      (description "Symbole general de connexion")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_14))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))
+        (pin (num 5) (name P5) (type passive))
+        (pin (num 6) (name P6) (type passive))
+        (pin (num 7) (name P7) (type passive))
+        (pin (num 8) (name P8) (type passive))
+        (pin (num 9) (name P9) (type passive))
+        (pin (num 10) (name P10) (type passive))
+        (pin (num 11) (name P11) (type passive))
+        (pin (num 12) (name P12) (type passive))
+        (pin (num 13) (name P13) (type passive))
+        (pin (num 14) (name P14) (type passive))))
+    (libpart (lib opto_npn) (part OPTO_NPN_12)
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) OPTO_NPN_12))
+      (pins
+        (pin (num 1) (name E) (type passive))
+        (pin (num 2) (name C) (type passive))))
+    (libpart (lib rgb-led) (part LED-RGB)
+      (footprints
+        (fp LED-3MM)
+        (fp LED-5MM)
+        (fp LED-10MM)
+        (fp LED-0603)
+        (fp LED-0805)
+        (fp LED-1206)
+        (fp LEDV))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED-RGB))
+      (pins
+        (pin (num 1) (name G) (type passive))
+        (pin (num 2) (name B) (type passive))
+        (pin (num 3) (name C) (type input))
+        (pin (num 4) (name R) (type input))))
+    (libpart (lib ntaduino-cache) (part USB_1)
+      (fields
+        (field (name Reference) J)
+        (field (name Value) USB_1))
+      (pins
+        (pin (num 1) (name Vbus) (type power_out))
+        (pin (num 2) (name D-) (type BiDi))
+        (pin (num 3) (name D+) (type BiDi))
+        (pin (num 4) (name GND) (type power_out))
+        (pin (num 5) (name Shield_1) (type passive))
+        (pin (num 6) (name Shield_2) (type passive))))
+    (libpart (lib atmel) (part ATMEGA8-P)
+      (description "ATMEGA8, PDIP28 Narrow, 8k Flash, 1k SRAM, 512B EEPROM")
+      (docs http://www.atmel.com/dyn/resources/prod_documents/doc2486.pdf)
+      (footprints
+        (fp 28DIP-ELL600)
+        (fp 28dip600))
+      (fields
+        (field (name Reference) IC)
+        (field (name Value) ATMEGA8-P)
+        (field (name Footprint) DIL28))
+      (pins
+        (pin (num 1) (name "PC6(~RESET~)") (type BiDi))
+        (pin (num 2) (name "(RXD)PD0") (type BiDi))
+        (pin (num 3) (name "(TXD)PD1") (type BiDi))
+        (pin (num 4) (name "(INT0)PD2") (type BiDi))
+        (pin (num 5) (name "(INT1)PD3") (type BiDi))
+        (pin (num 6) (name "(XCK/T0)PD4") (type BiDi))
+        (pin (num 7) (name VCC) (type power_in))
+        (pin (num 8) (name GND) (type power_in))
+        (pin (num 9) (name "PB6(XTAL1/TOSC1)") (type BiDi))
+        (pin (num 10) (name "PB7(XTAL2/TOSC2)") (type BiDi))
+        (pin (num 11) (name "(T1)PD5") (type BiDi))
+        (pin (num 12) (name "(AIN0)PD6") (type BiDi))
+        (pin (num 13) (name "(AIN1)PD7") (type BiDi))
+        (pin (num 14) (name "(ICP)PB0") (type BiDi))
+        (pin (num 15) (name "(OC1A)PB1") (type BiDi))
+        (pin (num 16) (name "(~SS~/OC1B)PB2") (type BiDi))
+        (pin (num 17) (name "(MOSI/OC2)PB3") (type BiDi))
+        (pin (num 18) (name "(MISO)PB4") (type BiDi))
+        (pin (num 19) (name "(SCK)PB5") (type BiDi))
+        (pin (num 20) (name AVCC) (type power_in))
+        (pin (num 21) (name AREF) (type BiDi))
+        (pin (num 22) (name AGND) (type power_in))
+        (pin (num 23) (name "(ADC0)PC0") (type BiDi))
+        (pin (num 24) (name "(ADC1)PC1") (type BiDi))
+        (pin (num 25) (name "(ADC2)PC2") (type BiDi))
+        (pin (num 26) (name "(ADC3)PC3") (type BiDi))
+        (pin (num 27) (name "(ADC4/SDA)PC4") (type BiDi))
+        (pin (num 28) (name "(ADC5/SCL)PC5") (type BiDi)))))
+  (libraries
+    (library (logical device)
+      (uri "C:\\Program Files (x86)\\KiCad\\share\\library\\device.lib"))
+    (library (logical conn)
+      (uri "C:\\Program Files (x86)\\KiCad\\share\\library\\conn.lib"))
+    (library (logical rgb-led)
+      (uri rgb-led.lib))
+    (library (logical opto_npn)
+      (uri opto_npn.lib))
+    (library (logical ntaduino-cache)
+      (uri E:\Projects\hardware\pcb\NTAduino\kicad_project\ntaduino-cache.lib))
+    (library (logical atmel)
+      (uri "C:\\Program Files (x86)\\KiCad\\share\\library\\atmel.lib")))
+  (nets
+    (net (code 1) (name "")
+      (node (ref SP1) (pin 2))
+      (node (ref R7) (pin 1)))
+    (net (code 2) (name "")
+      (node (ref D12) (pin 1))
+      (node (ref R22) (pin 2)))
+    (net (code 3) (name GND)
+      (node (ref J1) (pin 4))
+      (node (ref C4) (pin 1))
+      (node (ref C3) (pin 1))
+      (node (ref J1) (pin 5))
+      (node (ref R5) (pin 2))
+      (node (ref SW2) (pin 1))
+      (node (ref J1) (pin 6))
+      (node (ref D14) (pin 2))
+      (node (ref SW3) (pin 1))
+      (node (ref D13) (pin 2))
+      (node (ref D8) (pin 2))
+      (node (ref D3) (pin 1))
+      (node (ref D9) (pin 2))
+      (node (ref P2) (pin 8))
+      (node (ref P1) (pin 8))
+      (node (ref C1) (pin 1))
+      (node (ref SW1) (pin 1))
+      (node (ref D7) (pin 2))
+      (node (ref IC1) (pin 22))
+      (node (ref D10) (pin 2))
+      (node (ref IC1) (pin 8))
+      (node (ref D11) (pin 2))
+      (node (ref SP1) (pin 1))
+      (node (ref D2) (pin 1))
+      (node (ref C2) (pin 1))
+      (node (ref Q1) (pin 1))
+      (node (ref D12) (pin 2))
+      (node (ref D1) (pin 2))
+      (node (ref D5) (pin 3))
+      (node (ref C5) (pin 2)))
+    (net (code 4) (name "")
+      (node (ref D13) (pin 1))
+      (node (ref R23) (pin 2)))
+    (net (code 5) (name +5V)
+      (node (ref R3) (pin 2))
+      (node (ref P1) (pin 7))
+      (node (ref R11) (pin 2))
+      (node (ref IC1) (pin 7))
+      (node (ref IC1) (pin 20))
+      (node (ref P2) (pin 6))
+      (node (ref J1) (pin 1))
+      (node (ref R4) (pin 2))
+      (node (ref C1) (pin 2))
+      (node (ref R2) (pin 2))
+      (node (ref R10) (pin 2))
+      (node (ref R1) (pin 2))
+      (node (ref R24) (pin 1))
+      (node (ref R12) (pin 2))
+      (node (ref C2) (pin 2)))
+    (net (code 6) (name "")
+      (node (ref D2) (pin 2))
+      (node (ref R8) (pin 1))
+      (node (ref J1) (pin 3)))
+    (net (code 7) (name /P18)
+      (node (ref P2) (pin 4))
+      (node (ref IC1) (pin 18))
+      (node (ref R21) (pin 1)))
+    (net (code 8) (name /P1)
+      (node (ref R10) (pin 1))
+      (node (ref P1) (pin 1))
+      (node (ref IC1) (pin 1))
+      (node (ref C6) (pin 2)))
+    (net (code 9) (name /P6)
+      (node (ref P1) (pin 6))
+      (node (ref D4) (pin 1))
+      (node (ref IC1) (pin 6)))
+    (net (code 10) (name /P19)
+      (node (ref R6) (pin 1))
+      (node (ref IC1) (pin 19))
+      (node (ref P2) (pin 5)))
+    (net (code 11) (name /P28)
+      (node (ref IC1) (pin 28))
+      (node (ref P2) (pin 14)))
+    (net (code 12) (name /P27)
+      (node (ref P2) (pin 13))
+      (node (ref IC1) (pin 27))
+      (node (ref R17) (pin 1)))
+    (net (code 13) (name /P17)
+      (node (ref P2) (pin 3))
+      (node (ref R15) (pin 1))
+      (node (ref IC1) (pin 17)))
+    (net (code 14) (name /P26)
+      (node (ref R18) (pin 1))
+      (node (ref IC1) (pin 26))
+      (node (ref P2) (pin 12)))
+    (net (code 15) (name /P16)
+      (node (ref R14) (pin 1))
+      (node (ref P2) (pin 2))
+      (node (ref IC1) (pin 16)))
+    (net (code 16) (name /P25)
+      (node (ref P2) (pin 11))
+      (node (ref IC1) (pin 25))
+      (node (ref R19) (pin 1)))
+    (net (code 17) (name /P15)
+      (node (ref P2) (pin 1))
+      (node (ref R13) (pin 1))
+      (node (ref IC1) (pin 15)))
+    (net (code 18) (name /P24)
+      (node (ref P2) (pin 10))
+      (node (ref IC1) (pin 24))
+      (node (ref R20) (pin 1)))
+    (net (code 19) (name /P14)
+      (node (ref IC1) (pin 14))
+      (node (ref SW3) (pin 2))
+      (node (ref R12) (pin 1))
+      (node (ref P1) (pin 14)))
+    (net (code 20) (name /P23)
+      (node (ref IC1) (pin 23))
+      (node (ref R5) (pin 1))
+      (node (ref R4) (pin 1))
+      (node (ref P2) (pin 9)))
+    (net (code 21) (name /P13)
+      (node (ref P1) (pin 13))
+      (node (ref IC1) (pin 13))
+      (node (ref R7) (pin 2)))
+    (net (code 22) (name /P12)
+      (node (ref P1) (pin 12))
+      (node (ref IC1) (pin 12))
+      (node (ref SW2) (pin 2))
+      (node (ref R11) (pin 1)))
+    (net (code 23) (name "")
+      (node (ref R6) (pin 2))
+      (node (ref D1) (pin 1)))
+    (net (code 24) (name /P11)
+      (node (ref P1) (pin 11))
+      (node (ref R9) (pin 2))
+      (node (ref IC1) (pin 11)))
+    (net (code 25) (name "")
+      (node (ref C6) (pin 1))
+      (node (ref R2) (pin 1))
+      (node (ref D4) (pin 2))
+      (node (ref SW1) (pin 2)))
+    (net (code 26) (name /P21)
+      (node (ref C5) (pin 1))
+      (node (ref IC1) (pin 21))
+      (node (ref P2) (pin 7)))
+    (net (code 27) (name /P10)
+      (node (ref IC1) (pin 10))
+      (node (ref X1) (pin 1))
+      (node (ref C4) (pin 2))
+      (node (ref P1) (pin 10)))
+    (net (code 28) (name /P9)
+      (node (ref C3) (pin 2))
+      (node (ref P1) (pin 9))
+      (node (ref IC1) (pin 9))
+      (node (ref X1) (pin 2)))
+    (net (code 29) (name /P5)
+      (node (ref IC1) (pin 5))
+      (node (ref Q1) (pin 2))
+      (node (ref R1) (pin 1))
+      (node (ref P1) (pin 5)))
+    (net (code 30) (name /P4)
+      (node (ref IC1) (pin 4))
+      (node (ref R8) (pin 2))
+      (node (ref P1) (pin 4)))
+    (net (code 31) (name /P3)
+      (node (ref R23) (pin 1))
+      (node (ref P1) (pin 3))
+      (node (ref IC1) (pin 3)))
+    (net (code 32) (name /P2)
+      (node (ref R22) (pin 1))
+      (node (ref P1) (pin 2))
+      (node (ref IC1) (pin 2)))
+    (net (code 33) (name "")
+      (node (ref D5) (pin 4))
+      (node (ref R13) (pin 2)))
+    (net (code 34) (name "")
+      (node (ref R14) (pin 2))
+      (node (ref D5) (pin 2)))
+    (net (code 35) (name "")
+      (node (ref R15) (pin 2))
+      (node (ref D5) (pin 1)))
+    (net (code 36) (name "")
+      (node (ref D7) (pin 1))
+      (node (ref R17) (pin 2)))
+    (net (code 37) (name "")
+      (node (ref R24) (pin 2))
+      (node (ref D14) (pin 1)))
+    (net (code 38) (name "")
+      (node (ref R20) (pin 2))
+      (node (ref D10) (pin 1)))
+    (net (code 39) (name "")
+      (node (ref D11) (pin 1))
+      (node (ref R21) (pin 2)))
+    (net (code 40) (name "")
+      (node (ref D8) (pin 1))
+      (node (ref R18) (pin 2)))
+    (net (code 41) (name "")
+      (node (ref R19) (pin 2))
+      (node (ref D9) (pin 1)))
+    (net (code 42) (name "")
+      (node (ref R9) (pin 1))
+      (node (ref D3) (pin 2))
+      (node (ref J1) (pin 2))
+      (node (ref R3) (pin 1)))))
