@@ -24,7 +24,7 @@ LOCKOPT = -U lock:w:0x2f:m
 PROGRAMMER = -c usbasp
 # PROGRAMMER contains AVRDUDE options to address your programmer
 
-FUSEOPT_8 = -U hfuse:w:0xc0:m -U lfuse:w:0x9f:m
+FUSEOPT_8 = -U hfuse:w:0xc0:m -U lfuse:w:0x9f:m -B 100
 FUSEOPT_88 = -U hfuse:w:0xd6:m -U lfuse:w:0xdf:m -U efuse:w:0x00:m
 FUSEOPT_168 = -U hfuse:w:0xd6:m -U lfuse:w:0xdf:m -U efuse:w:0x00:m
 FUSEOPT_328 = -U lfuse:w:0xf7:m -U hfuse:w:0xda:m -U efuse:w:0x03:m
