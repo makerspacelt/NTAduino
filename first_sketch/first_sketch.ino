@@ -56,7 +56,7 @@ void loop()
     } else if (millis() - lastDebounceTime >= debounceDelay && !buttonLocked) {
       buttonLocked  = 1;
       test ++;
-      if (test > 2) {
+      if (test > 3) {
         test = 0;
       }
       
@@ -83,6 +83,9 @@ void loop()
       break;
     case 2:
       test3();
+      break;  
+    case 3:
+      test4();
       break;     
   }
 }
@@ -155,5 +158,26 @@ void test3()
       digitalWrite(leds[i], HIGH);
     }
   }
+}
+
+// inverted ldr graph
+void test4()
+{
+  int lightValue = analogRead(ldr);
+  cleanPins();
+  int output = map(lightValue, 800, 0, 0, 6);
+  if (output > 0) {
+    for (int i = 0; i <= output - 1; i++) {
+      digitalWrite(leds[i], HIGH);
+    }
+  }
+  if (lightValue < 50) {
+    digitalWrite(rgb[curRgb], HIGH);
+    curRgb++;
+    if (curRgb > 2) {
+      curRgb = 0;
+    }
+  }
+  delay(100);
 }
 
